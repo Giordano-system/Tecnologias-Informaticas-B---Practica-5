@@ -1,1 +1,2 @@
-# Tecnologias-Informaticas-B---Practica-5
+# crud-php-prototipo-para-refactorizar
+Prototipo de CRUD para refactorizar

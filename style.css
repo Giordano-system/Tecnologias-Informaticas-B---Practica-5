@@ -1,0 +1,98 @@
+*{
+    text-align: center;
+    background-color: black;
+}
+
+*::selection{
+    background-color: lightyellow;
+    color:black;
+}
+
+h2{
+    text-decoration: underline;
+    color:white
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+th{
+    background-color: goldenrod;
+    padding: 10px;
+} 
+
+td {
+    padding: 15px;
+} 
+
+td:hover{
+    color:black;
+    background-color: lightgrey;
+
+}
+
+td,a{
+    text-decoration: none;
+    color: white
+}
+
+a{
+    border: solid goldenrod;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+    background-color: goldenrod
+}
+
+a:hover{
+    text-decoration: underline;
+}  
+
+form {
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    color: black;
+    text-decoration: underline;   
+    background-color: goldenrod;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+
+input{
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+input:focus{
+    background-color: lightyellow;
+    color:black;
+    text-decoration: none;
+}
+
+input:hover{
+    background-color: lightyellow;
+    color:black;
+    text-decoration: none;
+}
+
+.boton{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+@import url(w3.css);
